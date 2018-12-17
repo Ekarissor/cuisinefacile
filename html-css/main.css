@@ -1,0 +1,154 @@
+/* ALL PAGES -------------------------- */
+.banner {
+    background-image: url(/cuisinefacile/images/banner0.jpg);
+    height: 250px;
+    width: 100%;
+    color: whitesmoke;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+/* NAVBAR START */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: chocolate;
+    position: relative;
+}
+.nav > .nav-btn {
+    display: none;
+}
+.nav > .nav-links {
+    display: inline-block;
+    font-size: 18px;
+}
+.nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* NAVBAR END */
+footer {
+    background-color: chocolate;
+    margin-top: 25px;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+}
+/* END ALL PAGES ---------------------- */
+
+/* INDEX.HTML CSS --------------------- */
+.duo {
+    width: 100%;
+    height: 250px;
+    margin: 15px;
+    margin-top: 0;
+    border: solid 5px chocolate;
+}
+.first {  
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.texte {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 30px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* INDEX.HTML CSS END ----------------- */
+
+/* ENTREE/PLAT/DESSERT CSS ------------ */
+.recipe {
+    border: solid 2px chocolate;
+    border-radius: 90%;
+}
+.liste {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* HOVER */
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.navigation {
+	display: inline-block;
+	text-align: center;
+}
+a p {
+	color: black;
+	margin-top: 8px;
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+	text-decoration: none;
+}
+.navigation img {
+	display: block;
+}
+.navigation#caption {
+	position: relative;
+}
+.navigation#caption .text {
+	position: absolute;		
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;			
+}
+.navigation#caption .text h1 {		
+	margin: 0;		
+	color: black;
+}
+.navigation#caption:hover .text {
+	opacity: 1;	
+}
+/* HOVER END */
+/* ENTREE/PLAT/DESSERT CSS END -------- */
+
+/* RECETTE PAGES CSS ------------------- */
+
+/* RECETTE PAGES CSS END --------------- */
+
+/* RESPONSIVE -------------------------- */
+main {
+    font-family: Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+}
+@media (min-width:1900px) {
+    main {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+    }
+}
+@media (max-width:680px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+}
+
+
+
+
