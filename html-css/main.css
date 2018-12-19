@@ -136,10 +136,20 @@ a:hover {
     margin: 30px;
 }
 .ingredient {
-    text-align: justify;
+    text-align: center;
     padding-left: 150px;
     padding-right: 150px;
     margin: 30px;
+}
+.picture {
+    margin-top: 50px;
+    margin-left: 175px;
+}
+.result {
+    border: solid 5px #69350f;
+}
+li {
+    text-align: justify;
 }
 /* RECETTE PAGES CSS END --------------- */
 
