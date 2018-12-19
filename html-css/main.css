@@ -129,7 +129,18 @@ a:hover {
 /* ENTREE/PLAT/DESSERT CSS END -------- */
 
 /* RECETTE PAGES CSS ------------------- */
-
+.preparation {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 30px;
+}
+.ingredient {
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin: 30px;
+}
 /* RECETTE PAGES CSS END --------------- */
 
 /* RESPONSIVE -------------------------- */
