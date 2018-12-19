@@ -8,6 +8,9 @@
     padding-right: 50px;
     padding-top: 50px;
 }
+h2, b {
+    color: #69350f;
+}
 /* NAVBAR START */
 * {
     box-sizing: border-box;
@@ -35,7 +38,7 @@ body {
     color: whitesmoke;
 }
 .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #69350f;
 }
 /* NAVBAR END */
 footer {
