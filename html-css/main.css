@@ -201,6 +201,23 @@ main {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,1fr);
     }
+    .menu {
+        visibility: hidden;
+    }
+    .result {
+        width: 300px;
+    }
+    .ingredient {
+        text-align: left;
+        width: 300xpx;
+    }
+    .preparation {
+        width: 300px;
+    }
+    .picture {
+        display: flow-root;
+        width: 100%;
+    }
 }
 
 
