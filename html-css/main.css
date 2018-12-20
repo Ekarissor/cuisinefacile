@@ -130,26 +130,23 @@ a:hover {
 
 /* RECETTE PAGES CSS ------------------- */
 .preparation {
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin: 30px;
+    text-align: justify;
+    display: block;
+    justify-content: center;
 }
 .ingredient {
+    margin-top: 15px;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin: 30px;
+    display: block;
+    justify-content: center;
 }
 .picture {
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-    margin-left: 175px;
 }
 .result {
     border: solid 5px #69350f;
-}
-li {
-    text-align: justify;
 }
 /* RECETTE PAGES CSS END --------------- */
 
