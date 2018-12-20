@@ -106,10 +106,10 @@ a:hover {
 .navigation img {
 	display: block;
 }
-.navigation#caption {
+.navigation {
 	position: relative;
 }
-.navigation#caption .text {
+.navigation .text {
 	position: absolute;		
     top: 50%;
 	left: 50%;
@@ -118,11 +118,11 @@ a:hover {
     opacity: 0;
     transition: all 0.8s ease;			
 }
-.navigation#caption .text h1 {		
+.navigation .text h1 {		
 	margin: 0;		
 	color: black;
 }
-.navigation#caption:hover .text {
+.navigation:hover .text {
 	opacity: 1;	
 }
 /* HOVER END */
